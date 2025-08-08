@@ -2,7 +2,7 @@ package com.fj.main;
 import org.springframework.context.support.*;
 import com.fj.sbeans.SessionFinder;
 
-import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
+//import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
 public class DependencyInjection {
 
 	public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class DependencyInjection {
 		
 		String result=x.sFinder("Farooq",8);
 		System.out.println(result);
-		System.Out.println("GIT IS WORKINK");
+		System.out.println("GIT IS WORKINK");
 		ctx.close();
 	}
 
